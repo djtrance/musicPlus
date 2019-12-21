@@ -33,6 +33,9 @@
 		B5FC638923AEB75B008873FB /* CreateRequestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC637923AEB75B008873FB /* CreateRequestInteractor.swift */; };
 		B5FC638A23AEB75B008873FB /* CreateRequestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC637923AEB75B008873FB /* CreateRequestInteractor.swift */; };
 		B5FC638B23AEB75B008873FB /* CreateRequestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC637923AEB75B008873FB /* CreateRequestInteractor.swift */; };
+		B5FC638E23AEDB00008873FB /* audifonos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5FC638D23AEDB00008873FB /* audifonos.jpg */; };
+		B5FC638F23AEDB00008873FB /* audifonos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5FC638D23AEDB00008873FB /* audifonos.jpg */; };
+		B5FC639023AEDB00008873FB /* audifonos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5FC638D23AEDB00008873FB /* audifonos.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,7 @@
 		B5FC637723AEB75B008873FB /* CreateRequestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestModels.swift; sourceTree = "<group>"; };
 		B5FC637823AEB75B008873FB /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
 		B5FC637923AEB75B008873FB /* CreateRequestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestInteractor.swift; sourceTree = "<group>"; };
+		B5FC638D23AEDB00008873FB /* audifonos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audifonos.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 				B576D64E23AEB54B00C4EDE8 /* SceneDelegate.swift */,
 				B576D65023AEB54B00C4EDE8 /* ContentView.swift */,
 				B576D65223AEB54E00C4EDE8 /* Assets.xcassets */,
+				B5FC638D23AEDB00008873FB /* audifonos.jpg */,
 				B576D65723AEB54E00C4EDE8 /* LaunchScreen.storyboard */,
 				B576D65A23AEB54E00C4EDE8 /* Info.plist */,
 				B576D65423AEB54E00C4EDE8 /* Preview Content */,
@@ -286,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FC638E23AEDB00008873FB /* audifonos.jpg in Resources */,
 				B576D65923AEB54E00C4EDE8 /* LaunchScreen.storyboard in Resources */,
 				B576D65623AEB54E00C4EDE8 /* Preview Assets.xcassets in Resources */,
 				B576D65323AEB54E00C4EDE8 /* Assets.xcassets in Resources */,
@@ -296,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FC638F23AEDB00008873FB /* audifonos.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FC639023AEDB00008873FB /* audifonos.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
