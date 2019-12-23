@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F4421214-4BBE-407D-9DB5-5A2E94E7E9D8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C92DF10-4539-4900-B772-C317B6ED4494"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicMas/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "0C92DF10-4539-4900-B772-C317B6ED4494 - 88887e12e914e8a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMas.ContentView.name.getter : Swift.String"
+                  moduleName = "MusicMas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/repos/MusicMas/MusicMas/MusicMas/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "0C92DF10-4539-4900-B772-C317B6ED4494 - 2353675731807e96"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMas.ContentView.name.setter : Swift.String"
+                  moduleName = "MusicMas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/repos/MusicMas/MusicMas/MusicMas/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "0C92DF10-4539-4900-B772-C317B6ED4494 - 46f97f0282a19a85"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMas.ContentView.name.modify : Swift.String"
+                  moduleName = "MusicMas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/repos/MusicMas/MusicMas/MusicMas/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  uuid = "0C92DF10-4539-4900-B772-C317B6ED4494 - a3e6669cc5b03c96"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMas.ContentView.name.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MusicMas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/repos/MusicMas/MusicMas/MusicMas/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "0C92DF10-4539-4900-B772-C317B6ED4494 - ffe5f334c849f1e4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMas.ContentView.$name.getter : SwiftUI.Binding&lt;Swift.String&gt;"
+                  moduleName = "MusicMas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/repos/MusicMas/MusicMas/MusicMas/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  uuid = "0C92DF10-4539-4900-B772-C317B6ED4494 - c9057b121c3415ff"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMas.ContentView.init(name: Swift.String) -&gt; MusicMas.ContentView"
+                  moduleName = "MusicMas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/repos/MusicMas/MusicMas/MusicMas/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "0C92DF10-4539-4900-B772-C317B6ED4494 - 58a6239c731a12be"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicMas.ContentView.init() -&gt; MusicMas.ContentView"
+                  moduleName = "MusicMas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/neo/repos/MusicMas/MusicMas/MusicMas/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -19,6 +19,16 @@ protocol CreateRequestDisplayLogic: class
 
 class CreateRequestViewController: UIViewController, CreateRequestDisplayLogic
 {
+    
+      // MARK: Method call expectations
+       var fetchMusicCalled = false
+    
+       // MARK: Spied methods
+    /*   func fetchMusic(request: ListMusic_Request)
+       {
+         fetchMusicCalled = true
+       }*/
+    
   var interactor: CreateRequestBusinessLogic?
   var router: (NSObjectProtocol & CreateRequestRoutingLogic & CreateRequestDataPassing)?
 

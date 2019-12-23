@@ -36,6 +36,8 @@
 		B5FC638E23AEDB00008873FB /* audifonos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5FC638D23AEDB00008873FB /* audifonos.jpg */; };
 		B5FC638F23AEDB00008873FB /* audifonos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5FC638D23AEDB00008873FB /* audifonos.jpg */; };
 		B5FC639023AEDB00008873FB /* audifonos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5FC638D23AEDB00008873FB /* audifonos.jpg */; };
+		B5FC63BB23AF133F008873FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FC63BA23AF133F008873FB /* Main.storyboard */; };
+		B5FC63BE23AF24C1008873FB /* datosMusicaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC63BD23AF24C1008873FB /* datosMusicaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		B5FC637823AEB75B008873FB /* CreateRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
 		B5FC637923AEB75B008873FB /* CreateRequestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRequestInteractor.swift; sourceTree = "<group>"; };
 		B5FC638D23AEDB00008873FB /* audifonos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audifonos.jpg; sourceTree = "<group>"; };
+		B5FC63BA23AF133F008873FB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B5FC63BD23AF24C1008873FB /* datosMusicaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datosMusicaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				B576D66223AEB54E00C4EDE8 /* MusicMasTests */,
 				B576D66D23AEB54E00C4EDE8 /* MusicMasUITests */,
 				B576D64A23AEB54B00C4EDE8 /* Products */,
+				B5FC63B723AF0431008873FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +132,7 @@
 		B576D64B23AEB54B00C4EDE8 /* MusicMas */ = {
 			isa = PBXGroup;
 			children = (
+				B5FC63BC23AF2486008873FB /* Models */,
 				B576D67C23AEB5DD00C4EDE8 /* Scenes */,
 				B576D64C23AEB54B00C4EDE8 /* AppDelegate.swift */,
 				B576D64E23AEB54B00C4EDE8 /* SceneDelegate.swift */,
@@ -151,6 +157,7 @@
 		B576D66223AEB54E00C4EDE8 /* MusicMasTests */ = {
 			isa = PBXGroup;
 			children = (
+				B5FC639123AEFD3E008873FB /* Scenes */,
 				B576D66323AEB54E00C4EDE8 /* MusicMasTests.swift */,
 				B576D66523AEB54E00C4EDE8 /* Info.plist */,
 			);
@@ -170,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				B576D67D23AEB60A00C4EDE8 /* CreateRequest */,
+				B5FC63BA23AF133F008873FB /* Main.storyboard */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -185,6 +193,28 @@
 				B5FC637923AEB75B008873FB /* CreateRequestInteractor.swift */,
 			);
 			path = CreateRequest;
+			sourceTree = "<group>";
+		};
+		B5FC639123AEFD3E008873FB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B5FC63B723AF0431008873FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5FC63BC23AF2486008873FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5FC63BD23AF24C1008873FB /* datosMusicaModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FC638E23AEDB00008873FB /* audifonos.jpg in Resources */,
+				B5FC63BB23AF133F008873FB /* Main.storyboard in Resources */,
 				B576D65923AEB54E00C4EDE8 /* LaunchScreen.storyboard in Resources */,
 				B576D65623AEB54E00C4EDE8 /* Preview Assets.xcassets in Resources */,
 				B576D65323AEB54E00C4EDE8 /* Assets.xcassets in Resources */,
@@ -324,6 +355,7 @@
 				B5FC638623AEB75B008873FB /* CreateRequestViewController.swift in Sources */,
 				B5FC638023AEB75B008873FB /* CreateRequestRouter.swift in Sources */,
 				B5FC638923AEB75B008873FB /* CreateRequestInteractor.swift in Sources */,
+				B5FC63BE23AF24C1008873FB /* datosMusicaModel.swift in Sources */,
 				B5FC637A23AEB75B008873FB /* CreateRequestPresenter.swift in Sources */,
 				B5FC637D23AEB75B008873FB /* CreateRequestWorker.swift in Sources */,
 				B576D64D23AEB54B00C4EDE8 /* AppDelegate.swift in Sources */,
@@ -438,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -492,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -511,7 +543,7 @@
 				DEVELOPMENT_TEAM = PJGLVQ4DGE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MusicMas/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,7 +564,7 @@
 				DEVELOPMENT_TEAM = PJGLVQ4DGE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MusicMas/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

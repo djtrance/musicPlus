@@ -20,12 +20,20 @@ enum CreateRequest
   {
     struct Request
     {
+        var nombre: String?
     }
     struct Response
     {
+        var ListaCanciones: [MusicData]?
+        var isError: Bool?
+        var message: String?
     }
     struct ViewModel
     {
+        var ListaCanciones: [MusicData]?
+    }
+    struct ListMusic_Request{
+        
     }
   }
 }
